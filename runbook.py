@@ -5,7 +5,7 @@ from nornir_utils.plugins.functions import print_result
 nr = InitNornir(config_file="config.yaml")
 
 def sender(task):
-    task.run(task=send_command, command="show version")
+    task.run(task=send_command, command="show platform")
 
 results = nr.run(task=sender) 
 print_result(results)
