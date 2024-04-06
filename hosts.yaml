@@ -1,0 +1,23 @@
+---
+LEFT:
+    username: "admin"
+    password: "cisco"
+    platform: "ios"
+    hostname: 192.168.8.101
+    
+          
+
+MIDDLE:
+    username: "admin"
+    password: "cisco"
+    platform: "ios"
+    hostname: 192.168.8.102
+    
+      
+RIGHT:
+    username: "admin"
+    password: "cisco"
+    platform: "ios"
+    hostname: 192.168.8.103
+
+
