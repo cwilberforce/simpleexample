@@ -5,7 +5,7 @@ from nornir_utils.plugins.functions import print_result
 nr = InitNornir(config_file="config.yaml")
 
 def sender(task):
-    task.run(task=send_command, command="show cdp neigh detail")
+    task.run(task=send_command, command="show cdp neighbors detail")
 
 results = nr.run(task=sender) 
 print_result(results)
